@@ -1,0 +1,11 @@
+# Car Rush packaging outputs for itch.io
+__pycache__/
+*.py[cod]
+.buildozer/
+bin/
+build/
+dist/
+itch_releases/
+*.spec.bak
+.venv/
+venv/
