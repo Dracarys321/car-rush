@@ -13,9 +13,9 @@ echo "Installing Linux build dependencies (Ubuntu/Debian)..."
 if command -v apt-get >/dev/null 2>&1; then
   sudo apt-get update
   sudo apt-get install -y \
-    git zip unzip openjdk-17-jdk python3-pip autoconf libtool \
-    pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 \
-    cmake libffi-dev libssl-dev
+    git zip unzip openjdk-17-jdk python3-pip autoconf automake libtool \
+    pkg-config zlib1g-dev libncurses-dev cmake libffi-dev libssl-dev \
+    build-essential
 fi
 
 echo "Building Android APK..."
